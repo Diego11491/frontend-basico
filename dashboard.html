@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Cuenta | TutorUTP</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Tutor<span>UTP</span></h1>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="buscar-tutores.html">Buscar Tutores</a>
+                <a href="dashboard.html" class="active">Mi Cuenta</a>
+                <a href="#" id="btn-logout">Cerrar Sesión</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="dashboard">
+        <div class="container">
+            <div class="sidebar">
+                <div class="user-info">
+                    <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Usuario">
+                    <h3>Ana Torres</h3>
+                    <p>Estudiante de Ingeniería</p>
+                </div>
+                <nav>
+                    <a href="#" class="active">Mis Sesiones</a>
+                    <a href="#">Historial</a>
+                    <a href="#">Métodos de Pago</a>
+                    <a href="#">Configuración</a>
+                </nav>
+            </div>
+
+            <div class="main-content">
+                <h2>Próximas Sesiones</h2>
+                
+                <div class="session-card">
+                    <div class="session-info">
+                        <h3>Matemáticas Avanzadas</h3>
+                        <p><strong>Tutor:</strong> Carlos Mendoza</p>
+                        <p><strong>Fecha:</strong> 15 Junio 2025, 4:00 PM</p>
+                        <p><strong>Duración:</strong> 1 hora</p>
+                    </div>
+                    <div class="session-actions">
+                        <button class="btn-secondary">Cancelar</button>
+                        <button class="btn-primary">Unirse</button>
+                    </div>
+                </div>
+
+                <div class="session-card">
+                    <div class="session-info">
+                        <h3>Programación Java</h3>
+                        <p><strong>Tutor:</strong> Luis Ramírez</p>
+                        <p><strong>Fecha:</strong> 18 Junio 2025, 3:00 PM</p>
+                        <p><strong>Duración:</strong> 1.5 horas</p>
+                    </div>
+                    <div class="session-actions">
+                        <button class="btn-secondary">Cancelar</button>
+                        <button class="btn-primary">Unirse</button>
+                    </div>
+                </div>
+
+                <h2 class="section-title">Tus Tutores Favoritos</h2>
+                <div class="favorite-tutors">
+                    <div class="tutor-mini-card">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Tutor">
+                        <p>Carlos Mendoza</p>
+                    </div>
+                    <div class="tutor-mini-card">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Tutor">
+                        <p>Ana Villanueva</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 TutorUTP - Plataforma de Asesorías Académicas</p>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

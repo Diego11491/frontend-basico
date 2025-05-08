@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Tutor | TutorUTP</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Tutor<span>UTP</span></h1>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="buscar-tutores.html">Buscar Tutores</a>
+                <a href="dashboard.html">Mi Cuenta</a>
+                <a href="#" id="btn-login">Iniciar Sesión</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="tutor-profile">
+        <div class="container">
+            <div class="profile-header">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Tutor">
+                <div class="profile-info">
+                    <h2>Carlos Mendoza</h2>
+                    <div class="rating">⭐ 4.8 (124 reseñas)</div>
+                    <p class="specialty">Tutor de Matemáticas Avanzadas</p>
+                    <p class="price">S/ 25 por hora</p>
+                    <button class="btn-primary" onclick="location.href='pago.html'">Agendar Sesión</button>
+                </div>
+            </div>
+
+            <div class="profile-details">
+                <div class="about">
+                    <h3>Sobre mí</h3>
+                    <p>Estudiante de último año de Ingeniería de Sistemas con especialización en análisis numérico. He sido asistente de cátedra en Cálculo III durante 2 años.</p>
+                </div>
+
+                <div class="availability">
+                    <h3>Disponibilidad</h3>
+                    <div class="calendar">
+                        <!-- Calendario simplificado -->
+                        <div class="week">
+                            <div class="day">Lun</div>
+                            <div class="day">Mar</div>
+                            <div class="day">Mié</div>
+                            <div class="day">Jue</div>
+                            <div class="day">Vie</div>
+                            <div class="day">Sáb</div>
+                            <div class="day">Dom</div>
+                        </div>
+                        <div class="slots">
+                            <span class="available">9:00 AM</span>
+                            <span class="available">11:00 AM</span>
+                            <span class="unavailable">2:00 PM</span>
+                            <span class="available">4:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews">
+                    <h3>Reseñas</h3>
+                    <div class="review">
+                        <div class="review-header">
+                            <strong>María López</strong>
+                            <div class="rating">⭐ 5.0</div>
+                        </div>
+                        <p>"Carlos explica muy bien los conceptos difíciles. Me ayudó a aprobar Cálculo II!"</p>
+                    </div>
+                    <div class="review">
+                        <div class="review-header">
+                            <strong>José Pérez</strong>
+                            <div class="rating">⭐ 4.5</div>
+                        </div>
+                        <p>"Buen tutor, solo que a veces se va muy rápido en los ejercicios."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 TutorUTP - Plataforma de Asesorías Académicas</p>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

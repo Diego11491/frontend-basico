@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Tutores | TutorUTP</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Tutor<span>UTP</span></h1>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="buscar-tutores.html" class="active">Buscar Tutores</a>
+                <a href="dashboard.html">Mi Cuenta</a>
+                <a href="#" id="btn-login">Iniciar Sesión</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="search-section">
+        <div class="container">
+            <div class="search-box">
+                <input type="text" placeholder="Buscar por curso o tema...">
+                <select>
+                    <option value="">Todas las carreras</option>
+                    <option value="ingenieria">Ingeniería de Sistemas</option>
+                    <option value="administracion">Administración</option>
+                    <option value="derecho">Derecho</option>
+                </select>
+                <button class="btn-primary">Buscar</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="results">
+        <div class="container">
+            <h2>Tutores Disponibles</h2>
+            <div class="tutor-list">
+                <div class="tutor-card" onclick="location.href='perfil-tutor.html'">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Tutor">
+                    <h3>Carlos Mendoza</h3>
+                    <div class="rating">⭐ 4.8</div>
+                    <p>Matemáticas Avanzadas</p>
+                    <p class="price">S/ 25 por hora</p>
+                </div>
+                
+                <div class="tutor-card" onclick="location.href='perfil-tutor.html'">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Tutor">
+                    <h3>Ana Villanueva</h3>
+                    <div class="rating">⭐ 4.9</div>
+                    <p>Programación Java</p>
+                    <p class="price">S/ 30 por hora</p>
+                </div>
+                
+                <div class="tutor-card" onclick="location.href='perfil-tutor.html'">
+                    <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Tutor">
+                    <h3>Luis Torres</h3>
+                    <div class="rating">⭐ 4.7</div>
+                    <p>Física Universitaria</p>
+                    <p class="price">S/ 20 por hora</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 TutorUTP - Plataforma de Asesorías Académicas</p>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

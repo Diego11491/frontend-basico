@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago | TutorUTP</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Tutor<span>UTP</span></h1>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="buscar-tutores.html">Buscar Tutores</a>
+                <a href="dashboard.html">Mi Cuenta</a>
+                <a href="#" id="btn-login">Iniciar Sesión</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="payment">
+        <div class="container">
+            <div class="payment-steps">
+                <div class="step active">1. Confirmación</div>
+                <div class="step active">2. Pago</div>
+                <div class="step">3. Confirmación</div>
+            </div>
+
+            <div class="payment-summary">
+                <h2>Resumen de la Sesión</h2>
+                <div class="summary-card">
+                    <p><strong>Tutor:</strong> Carlos Mendoza</p>
+                    <p><strong>Curso:</strong> Matemáticas Avanzadas</p>
+                    <p><strong>Fecha:</strong> 15 Junio 2025, 4:00 PM</p>
+                    <p><strong>Duración:</strong> 1 hora</p>
+                    <p class="total">Total a pagar: <span>S/ 25.00</span></p>
+                </div>
+            </div>
+
+            <div class="payment-methods">
+                <h2>Método de Pago</h2>
+                <div class="method-tabs">
+                    <button class="active">Tarjeta de Crédito/Débito</button>
+                    <button>Plin/Yape</button>
+                </div>
+
+                <div class="credit-card-form">
+                    <div class="card-preview"></div>
+                    <form id="payment-form">
+                        <div class="form-group">
+                            <label for="card-number">Número de tarjeta</label>
+                            <input type="text" id="card-number" placeholder="1234 5678 9012 3456">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="card-expiry">Fecha de expiración</label>
+                                <input type="text" id="card-expiry" placeholder="MM/AA">
+                            </div>
+                            <div class="form-group">
+                                <label for="card-cvc">CVC</label>
+                                <input type="text" id="card-cvc" placeholder="123">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="card-name">Nombre en la tarjeta</label>
+                            <input type="text" id="card-name" placeholder="JUAN PEREZ">
+                        </div>
+                        <button type="submit" class="btn-primary">Pagar S/ 25.00</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 TutorUTP - Plataforma de Asesorías Académicas</p>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

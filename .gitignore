@@ -1,0 +1,10 @@
+# Archivos temporales del so
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Entorno de desarrollo
+.vscode/
+
+# Archivos de logs
+*.log

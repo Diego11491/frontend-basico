@@ -7,4 +7,8 @@ desktop.ini
 .vscode/
 
 # Archivos de logs
+<<<<<<< HEAD
 *.log
+=======
+*.log
+>>>>>>> f72b908268f1200027a26c789edb2fa4ea7c21c5
